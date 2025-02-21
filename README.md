@@ -6,6 +6,7 @@
 </div>
 
 <div id="pt" style="display:block">
+
 ## Introdução
 O objetivo desse projeto é o de criar uma LLM (Large Language Model) utilizando a tecnologia GPT que possa ser executada em uma máquina comum. Apesar da proposta de ser uma IA generativa esse código precisará de um amplo poder computacional para de fato ser capaz de gerar textos relevantes.
 
