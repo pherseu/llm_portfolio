@@ -1,11 +1,7 @@
 # README
 
-<div>
-    <button onclick="document.getElementById('pt').style.display='block';document.getElementById('en').style.display='none'">Português</button>
-    <button onclick="document.getElementById('en').style.display='block';document.getElementById('pt').style.display='none'">English</button>
-</div>
-
-<div id="pt" style="display:block">
+<details>
+<summary>Português</summary>
 
 ## Introdução
 O objetivo desse projeto é o de criar uma LLM (Large Language Model) utilizando a tecnologia GPT que possa ser executada em uma máquina comum. Apesar da proposta de ser uma IA generativa esse código precisará de um amplo poder computacional para de fato ser capaz de gerar textos relevantes.
@@ -18,9 +14,12 @@ Para que o código possa ser executado será necessário que se crie uma pasta c
 
 ## Sobre o Dataset
 Utilizei o OpenWebText2 para treinar o modelo por ser o mais indicado e também curado para isso, existem outros repositórios de textos disponíveis para utilizar, lembrando bem de ser sempre um único arquivo txt.
-</div>
 
-<div id="en" style="display:none">
+</details>
+
+<details>
+<summary>English</summary>
+
 ## Introduction
 The goal of this project is to create a LLM (Large Language Model) using GPT technology that can be run on a regular machine. Despite being a generative AI, this code will require significant computational power to actually generate relevant texts.
 
@@ -32,4 +31,5 @@ To run the code, you'll need to create a folder named ‘_dataset’ or modify t
 
 ## About the Dataset
 I used OpenWebText2 to train the model as it is the most recommended and curated for this purpose. There are other text repositories available for use, always remembering to have a single txt file.
-</div>
+
+</details>
