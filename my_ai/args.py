@@ -15,7 +15,7 @@ def train_gpt(hyperparameters):
 
 def automated_routine(hyperparameters):
     if os.path.isfile('vocab.txt'):
-        pass
+        "In order to run this program you must use one of the following parameters:\n -r : start the prompt, but it'll only work if you already have a Vocab and a Model file \n -t : start training the AI, don't forget to review the hyperparameters and the folder containing the files."
     else:
         print('There is no vocab file')
 
